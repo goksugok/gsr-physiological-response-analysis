@@ -1,0 +1,5 @@
+trial_id,stimulus,time_image_screen,familiarity,response,correct,response_time
+1,ai_01.png,10000,unfamiliar,a,1,700
+2,real_01.png,16000,unfamiliar,r,1,800
+3,ai_02.png,22000,unfamiliar,a,1,900
+4,real_02.png,28000,unfamiliar,r,1,1000
