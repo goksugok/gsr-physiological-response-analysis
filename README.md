@@ -69,3 +69,15 @@ No real participant-level datasets, potentially identifying logs, or research st
 ## Technologies
 
 Arduino / C++, Python, pyserial, OpenSesame, CSV, serial communication, data acquisition, experimental stimulus timing.
+
+## Hardware Prototype
+
+The GSR acquisition system was implemented on a breadboard using an Arduino Uno R3, LM358 operational amplifier, a 470 kΩ resistor, and a 100 nF capacitor.
+
+### Prototype Overview
+![GSR Hardware Overview](hardware/photos/gsr_hardware_overview.jpg)
+
+### Circuit Close-up
+![GSR Circuit Close-up](hardware/photos/gsr_circuit_closeup.jpg)
+
+The Arduino interfaces with the analog circuit through the A0, 5V, and GND pins. The prototype was used to collect raw GSR-related analog measurements during the experimental study.
