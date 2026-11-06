@@ -81,3 +81,12 @@ The GSR acquisition system was implemented on a breadboard using an Arduino Uno 
 ![GSR Circuit Close-up](hardware/photos/gsr_circuit_closeup.jpg)
 
 The Arduino interfaces with the analog circuit through the A0, 5V, and GND pins. The prototype was used to collect raw GSR-related analog measurements during the experimental study.
+
+## GSR Signal Visualization
+
+The figure below shows an example GSR signal generated from synthetic data. The signal represents raw Arduino ADC readings over time.
+
+![Synthetic GSR Signal](gsr_signal.png)
+
+**Note:** This visualization uses synthetic data and does not contain real participant recordings.
+
